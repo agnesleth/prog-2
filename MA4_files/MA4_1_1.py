@@ -45,9 +45,8 @@ def approximate_pi(n):
     ax.scatter(x_outside, y_outside, color='blue', s=1)
     ax.set_xlim(-1.1, 1.1)
     ax.set_ylim(-1.1, 1.1)
-    ax.set_title(f'Approximate PI using Monte Carlo, n = {n}')
     plt.savefig(f'{n}.png')
-	plt.show()
+    plt.show()
 
     print(f'n = {n}')
     print(f'n_c = {n_c}, n_s = {n_s}')
