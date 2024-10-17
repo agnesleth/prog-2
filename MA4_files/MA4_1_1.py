@@ -4,7 +4,7 @@ Solutions to module 4
 Review date:
 """
 
-student = ""
+student = "Agnes Leth"
 reviewer = ""
 
 
@@ -46,7 +46,8 @@ def approximate_pi(n):
     ax.set_xlim(-1.1, 1.1)
     ax.set_ylim(-1.1, 1.1)
     ax.set_title(f'Approximate PI using Monte Carlo, n = {n}')
-    plt.show()
+    plt.savefig(f'{n}.png')
+	plt.show()
 
     print(f'n = {n}')
     print(f'n_c = {n_c}, n_s = {n_s}')
