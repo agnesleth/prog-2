@@ -4,7 +4,7 @@ Solutions to module 4
 Review date:
 """
 
-student = ""
+student = "Agnes Leth"
 reviewer = ""
 
 import math as m
